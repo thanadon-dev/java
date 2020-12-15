@@ -1,8 +1,7 @@
 # java
 ฝึกเขียนจ้า
 
-```
-java
+```java
 package thanadon;
 
 import java.util.Scanner;  // Import the Scanner class
