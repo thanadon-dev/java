@@ -28,9 +28,11 @@ public class Thanadon {
 # Java งานตาหนุ่มอะ
 ```java
 
+
+// ธนดล คงคะนันท์ จ้าา
 package thanadon;
 
-import java.util.Scanner;  // Import the Scanner class
+import java.util.Scanner;  
 
 public class Thanadon {
 
@@ -39,15 +41,16 @@ public class Thanadon {
     int x,y;
     
     Scanner c = new Scanner(System.in);
-    System.out.print("Hour / 1 Week : ");
+    System.out.print("กี่ชวั่โมง/สัปดาห์ : ");
     x = c.nextInt();
-    System.out.print("Price / 1 Hour : ");
+    System.out.print("กี่บาท/ชั่วโมง : ");
     y = c.nextInt();
     
     int a = x * y ; 
-    System.out.println("Total :" + " " + a);
-    System.out.println("Calculator Name is Thanadon");
     
+    System.out.println("ผลลัพธ์ :" + " " + a);
+    System.out.println("ผู้คำนวนคือ : ธนดล คงคะนันท์");
+
 }
 
 }
