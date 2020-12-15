@@ -20,9 +20,6 @@ public class Thanadon {
     int a = x + y ;
     System.out.println("Calculator is :" + " " + a);
     
-
-
-
 }
 
 }
