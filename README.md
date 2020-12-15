@@ -1,5 +1,5 @@
 # java
-ฝึกเขียนจ้า
+อาจารย์ให้จดลงสมุด !!
 
 ```java
 package thanadon;
