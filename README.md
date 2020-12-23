@@ -72,13 +72,14 @@ public class Thanadon {
        JOptionPane.showMessageDialog(null, "ชื่อของคุณคือ :" + m, "หัวข้อ", JOptionPane.WARNING_MESSAGE);
        
        //การบ้าน
-       String markname = JOptionPane.showInputDialog("คุณชื่ออะไร ?");
+        String markname = JOptionPane.showInputDialog("คุณชื่ออะไร ?");
         String markmoney = JOptionPane.showInputDialog("เงินรายวัน ?");
         String markhour = JOptionPane.showInputDialog("เงินเรทค่าแรง ?");
         System.out.println("ชื่อของคุณคือ : " + markname);
         System.out.println("เงินรายวัน : " + markmoney);
         System.out.println("เงินเรทค่าแรง : " + markhour);
-        System.out.println("จำนวนเงินผลลัพธ์ : " + markmoney * markhour);
+        int total = Integer.parseInt(markmoney) * Integer.parseInt(markhour);
+        System.out.println("จำนวนเงินผลลัพธ์ : " + total);
        
 ```
 
