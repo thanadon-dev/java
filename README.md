@@ -1,7 +1,7 @@
 # Java งานตาหนุ่มอะ 23/12/2020
 ```java
 
-        //อย่าลืม Import ตัวนี้ก่อนใช้ด้วยหละ
+        //อย่าลืม Import ตัวนี้ก่อนใช้ JOptionPane ด้วยหละ
         import javax.swing.JOptionPane;
 
         // งานที่ 1
