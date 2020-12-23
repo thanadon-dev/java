@@ -60,6 +60,14 @@ public class Thanadon {
 # Java งานตาหนุ่มอะ 23/12/2020
 ```java
 
+        // งานที่ 1
+       JOptionPane.showMessageDialog(null, "รักเมียรักเมียรักเมีย", "เทสเทส", JOptionPane.ERROR_MESSAGE);
+       JOptionPane.showMessageDialog(null, "รักเมียรักเมียรักเมีย", "เทสเทส", JOptionPane.INFORMATION_MESSAGE);
+       JOptionPane.showMessageDialog(null, "รักเมียรักเมียรักเมีย", "เทสเทส", JOptionPane.PLAIN_MESSAGE);
+       JOptionPane.showMessageDialog(null, "รักเมียรักเมียรักเมีย", "เทสเทส", JOptionPane.QUESTION_MESSAGE);
+       JOptionPane.showMessageDialog(null, "รักเมียรักเมียรักเมีย", "เทสเทส", JOptionPane.WARNING_MESSAGE);
+       
+        // งานที่ 2
         String m = JOptionPane.showInputDialog("What is you name?");
        JOptionPane.showMessageDialog(null, "ชื่อของคุณคือ :" + m, "หัวข้อ", JOptionPane.WARNING_MESSAGE);
        
