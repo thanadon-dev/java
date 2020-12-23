@@ -1,6 +1,9 @@
 # Java งานตาหนุ่มอะ 23/12/2020
 ```java
 
+        //อย่าลืม Import ตัวนี้ก่อนใช้ด้วยหละ
+        import javax.swing.JOptionPane;
+
         // งานที่ 1
        JOptionPane.showMessageDialog(null, "รักเมียรักเมียรักเมีย", "เทสเทส", JOptionPane.ERROR_MESSAGE);
        JOptionPane.showMessageDialog(null, "รักเมียรักเมียรักเมีย", "เทสเทส", JOptionPane.INFORMATION_MESSAGE);
