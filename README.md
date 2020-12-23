@@ -78,7 +78,7 @@ public class Thanadon {
         System.out.println("ชื่อของคุณคือ : " + markname);
         System.out.println("เงินรายวัน : " + markmoney);
         System.out.println("เงินเรทค่าแรง : " + markhour);
-        System.out.println("จำนวนเงินผลลัพธ์ : " + markmoney + markhour);
+        System.out.println("จำนวนเงินผลลัพธ์ : " + markmoney * markhour);
        
 ```
 
