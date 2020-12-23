@@ -57,3 +57,9 @@ public class Thanadon {
 
 
 ```
+```java
+# Java งานตาหนุ่มอะ 23/12/2020
+        String m = JOptionPane.showInputDialog("What is you name?");
+       JOptionPane.showMessageDialog(null, "ชื่อของคุณคือ :" + m, "หัวข้อ", JOptionPane.WARNING_MESSAGE);
+```
+
