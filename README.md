@@ -27,3 +27,21 @@
        
 ```
 
+# Java งานตาหนุ่มอะ 24/12/2020
+
+```java
+        แปลงจาก String
+        Integer.parseInt
+        Short.parseShort
+        Long.parseLong
+        Float.parseFloat
+        Double.parseDouble
+
+        //แปลงเป็น String
+        Integer.ToString
+        Integer.ToHexString
+        Integer.ToOctalString
+        Integer.ToBinaryString
+
+```
+
