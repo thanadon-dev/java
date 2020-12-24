@@ -30,9 +30,9 @@
 # Java งานตาหนุ่มอะ 24/12/2020
 
 ```java
-        แปลงจาก String
-        Integer.parseInt
-        Short.parseShort
+        //แปลงจาก String
+        Integer.parseInt        //แปลงจาก String เป็น Int
+        Short.parseShort       
         Long.parseLong
         Float.parseFloat
         Double.parseDouble
