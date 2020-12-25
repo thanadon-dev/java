@@ -72,6 +72,81 @@
              }
             } 
             //งานที่1ก็อปถึงตรงนี้
+            
+            
+            
+            //การบ้าน อันนี้เขียนใน NetBeans IDE 8.2 จะใช้ก็เอาไปแปลงกันเองหล่ะ
+            //เริ่ม !!
+            
+            package thanadon;
+
+import javax.swing.JOptionPane;
+import java.util.Scanner;
+
+public class Thanadon {
+
+    public static void main(String[] args) {
+
+// CR Thanadon Kongkanun
+//    ชื่อจริง
+        Scanner markFn = new Scanner(System.in);
+        System.out.println("กรุณากรอกชื่อ :");
+        String markFirstName = markFn.nextLine();
+//    นามสกุล
+        Scanner markLn = new Scanner(System.in);
+        System.out.println("กรุณากรอกนามสกุล :");
+        String markLastName = markLn.nextLine();
+
+//    ห้อง
+        Scanner markRm = new Scanner(System.in);
+        System.out.println("กรุณากรอกห้อง :");
+        String markRoom = markRm.nextLine();
+
+//    ชื่อวิชา
+        Scanner markSj = new Scanner(System.in);
+        System.out.println("กรุณากรอกชื่อวิชา :");
+        String markSubject = markSj.nextLine();
+
+//    คะแนน
+        Scanner markSc = new Scanner(System.in);
+        System.out.println("กรุณากรอกคะแนน :");
+        float markScore = markSc.nextFloat();
+
+//        แสดงข้อมูลทั้งหมด
+        System.out.println("========== : แสดงข้อมูลทั้งหมด : ==========");
+        System.out.println("คุณชื่อ : " + markFirstName + " นามสกุล " + markLastName);
+        System.out.println("ห้องเรียน : " + markRoom);
+        System.out.println("เรียนวิชา : " + markSubject);
+
+//        if & else (เงื่อนไขต่างๆ)
+        if (markScore >= 80) {
+            System.out.println("คะแนนของคุณคือ :" + markScore);
+            System.out.println("คุณได้เกรด 4");
+        } else if (markScore >= 75) {
+            System.out.println("คะแนนของคุณคือ :" + markScore);
+            System.out.println("คุณได้เกรด 3.5");
+        } else if (markScore >= 70) {
+            System.out.println("คะแนนของคุณคือ :" + markScore);
+            System.out.println("คุณได้เกรด 3");
+        } else if (markScore >= 65) {
+            System.out.println("คะแนนของคุณคือ :" + markScore);
+            System.out.println("คุณได้เกรด 2.5");
+        } else if (markScore >= 55) {
+            System.out.println("คะแนนของคุณคือ :" + markScore);
+            System.out.println("คุณได้เกรด 1.5");
+        } else if (markScore >= 50) {
+            System.out.println("คะแนนของคุณคือ :" + markScore);
+            System.out.println("คุณได้เกรด 1");
+        } else {
+            System.out.println("คะแนนของคุณคือ :" + markScore);
+            System.out.println("คุณสอบตก");
+        }
+
+    }
+    
+
+}
+
 
 ```
 
