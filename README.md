@@ -51,13 +51,14 @@
         // ก็อปวางบนเว็บ https://www.jdoodle.com/online-java-compiler 
         // ก็ใช้ได้เลย
         
-        //งานที่ 1 import java.util.Scanner;
+        //งานที่ 1
+        import java.util.Scanner;
         public class MyClass {
             public static void main(String args[]) {
 
             //Thanadon Kongaknun
             Scanner mark = new Scanner(System.in); 
-            System.out.println("กรอกมาสิสาส");
+            System.out.println("ระบุช่วงเวลาของคุณ :");
             int time = mark.nextInt();
 
              if(time < 18){
@@ -67,9 +68,9 @@
              }
 
              System.out.println("นาย ธนดล  คงคะนันท์ เลขที่ 10");
-
-            }
-        }
+     
+    }
+}
 
 ```
 
