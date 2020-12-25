@@ -148,6 +148,59 @@
 
 
                 }
+                
+                
+             
+            //======================================================================================================================
+            //======================================================================================================================
+             //อันนี้การบ้านสำหรับโค้ดที่ขนาดย่อส่วนลง มันจะอ่านง่ายกว่าเดิมเยอะมากๆ
+             import java.util.Scanner;
+
+                public class MyClass {
+                    public static void main(String args[]) {
+                         Scanner scanw = new Scanner(System.in);
+                        System.out.println("กรุณากรอกชื่อ :");
+                        String markFirstName = scanw.nextLine();
+                        System.out.println("กรุณากรอกนามสกุล :");
+                        String markLastName = scanw.nextLine();
+                        System.out.println("กรุณากรอกห้อง :");
+                        String markRoom = scanw.nextLine();
+                        System.out.println("กรุณากรอกชื่อวิชา :");
+                        String markSubject = scanw.nextLine();
+                        System.out.println("กรุณากรอกคะแนน :");
+                        float markScore = scanw.nextFloat();
+                        double grade = 1.1;
+
+                // CR. Thanadon Kongkanun
+
+                //        แสดงข้อมูลทั้งหมด
+                        System.out.println("========== : แสดงข้อมูลทั้งหมด : ==========");
+                        System.out.println("คุณชื่อ : " + markFirstName + " นามสกุล " + markLastName);
+                        System.out.println("ห้องเรียน : " + markRoom);
+                        System.out.println("เรียนวิชา : " + markSubject);
+
+                //        if & else (เงื่อนไขต่างๆ)
+                        if (markScore >= 80) {
+                            grade = 4;
+                        } else if (markScore >= 75) {
+                            grade = 3.5;
+                        } else if (markScore >= 70) {
+                            grade = 3;
+                        } else if (markScore >= 65) {
+                            grade = 2.5;
+                        } else if (markScore >= 55) {
+                            grade = 1.5;
+                        } else if (markScore >= 50) {
+                            grade = 1;
+                        } else {
+                            grade = 0;
+                        }
+
+                        System.out.println("คะแนนของคุณคือ :" + markScore);
+                        System.out.println("คุณได้เกรด  " + grade);
+
+                    }
+                }
 
 
 ```
