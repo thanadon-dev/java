@@ -206,5 +206,24 @@
                 }
 
 
+```ข้อสอบตาหนุ่ม มั้ง
+```java
+import java.util.Scanner;
+
+public class MyClass {
+        public static void main(String args[])
+              {
+                int num;
+                System.out.println("กรุณากรอกเลข :");
+            
+                Scanner input = new Scanner(System.in);
+                num = input.nextInt();
+            
+                if ( num % 2 == 0 )
+                    System.out.println(num + " เป็นเลขคู่");
+                 else
+                    System.out.println(num + " เป็นเลขคี่");
+              }
+}
 ```
 
