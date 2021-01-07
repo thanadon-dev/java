@@ -206,7 +206,7 @@
                 }
 
 
-```ข้อสอบตาหนุ่ม มั้ง
+# ข้อสอบตาหนุ่ม มั้ง
 ```java
 import java.util.Scanner;
 
@@ -268,4 +268,47 @@ public class MyClass {
     }
 }
 ```
+# งานตาหนุ่ม 1/7/2021
+```Java
+import java.util.Scanner;
 
+public class MyClass {
+    public static void main(String args[]) {
+      
+    //Thanadon Kongkanun
+    Scanner MaRkzAA = new Scanner(System.in);
+    System.out.println("เลือกมีหนูของท่าน ?  :  ");
+	int markkMenu = MaRkzAA.nextInt(); 
+	
+    	switch (markkMenu) {
+          case 1:
+              //Menu 1 (หาพื้นที่สามเหลี่ยม)
+              Scanner scan = new Scanner(System.in);
+              System.out.print("Input value of Base");
+              float Base = scan.nextFloat();
+              System.out.print("Input value of Height");
+              float Height = scan.nextFloat();
+            break;
+          case 2:
+              //Menu 2 (หาพื้นสี่เหลี่ยม)
+                Scanner scan = new Scanner(System.in);
+                System.out.print(" Input value of Width : ");
+                float Width = scan.nextFloat();
+                System.out.print(" Input value of Long : ");
+                float Long = scan.nextFloat();
+                System.out.printf(" Area of a Rectangle is %.2f ", Width * Long);
+            break;
+          case 3:
+              //Menu 3 (หาพื้นที่วงกลม)
+                Scanner scan = new Scanner(System.in);
+                System.out.print("กรุณากรอกตัวเลขของรัศมี : ");
+                double r = scan.nextDouble();
+                scan.close();
+                System.out.printf("\r\nพื้นที่ของวงกลม คือ %.2f", Math.PI * (r * r));
+            break;
+        }
+        
+      
+    }
+}
+```
