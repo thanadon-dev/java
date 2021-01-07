@@ -236,9 +236,10 @@ import java.util.Scanner;
 public class MyClass {
     public static void main(String args[]) {
       
-    Scanner zxc = new Scanner(System.in);
+    //Thanadon Kongkanun
+    Scanner MaRkzAA = new Scanner(System.in);
     System.out.println("เวลาของคุณคือ ?  :  ");
-	int markk = zxc.nextInt(); 
+	int markk = MaRkzAA.nextInt(); 
 	
     	switch (markk) {
           case 1:
