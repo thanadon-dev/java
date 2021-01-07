@@ -227,3 +227,44 @@ public class MyClass {
 }
 ```
 
+```java
+// ถ้าจะมาก็อปแล้วนินทาด่ากูก็หัดเขียนเองนะไอโง่
+// เข้าไปที่เว็บนี้ https://www.jdoodle.com/online-java-compiler/
+
+import java.util.Scanner;
+
+public class MyClass {
+    public static void main(String args[]) {
+      
+    Scanner zxc = new Scanner(System.in);
+    System.out.println("เวลาของคุณคือ ?  :  ");
+	int markk = zxc.nextInt(); 
+	
+    	switch (markk) {
+          case 1:
+            System.out.println("Monday");
+            break;
+          case 2:
+            System.out.println("Tuesday");
+            break;
+          case 3:
+            System.out.println("Wednesday");
+            break;
+          case 4:
+            System.out.println("Thursday");
+            break;
+          case 5:
+            System.out.println("Friday");
+            break;
+          case 6:
+            System.out.println("Saturday");
+            break;
+          case 7:
+            System.out.println("Sunday");
+            break;
+        }
+      
+    }
+}
+```
+
